@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Вариант 20</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #a79986;
+      }
+      header {
+        background-color: #803e2f;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .logo {
+        width: 50px;
+        height: 90px;
+      }
+      .phone {
+        background-color: #d9b470;
+        padding: 5px 10px;
+        border-radius: 5px;
+      }
+      .header2 {
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #d9b470;
+      }
+      .main {
+        margin-left: 20px;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .cards {
+        max-width: 250px;
+        display: grid;
+        gap: 20px;
+      }
+      .search {
+        display: flex;
+        width: 100px;
+        height: 30px;
+        background: #d9b470;
+        color: #000000;
+        border: 0;
+        border-radius: 10px;
+      }
+      footer {
+        background-color: #803e2f;
+        padding: 10px;
+        text-align: center;
+        margin-top: 20px;
+      }
+      .textcols {
+        flex: auto;
+        white-space: nowrap;
+      }
+      .textcols-item {
+        flex: auto;
+        margin-left: auto;
+        white-space: normal;
+        display: inline-block;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 48%;
+        vertical-align: top;
+        background: #d9b470;
+      }
+      .textcols .textcols-item:first-child {
+        display: inline-flexblock;
+        flex: auto;
+        margin-right: auto;
+        margin-left: 30px;
+      }
+      .footer2 {
+        background-color: #d9b470;
+        padding: 10px;
+        text-align: center;
+        margin-top: 0px;
+      }
+      .y {
+        width: 100px;
+        margin-left: 90%;
+      }
+      .card1 {
+        flex: auto;
+        padding-top: 10px;
+        text-align: center;
+        width: 200px;
+        background-color: #d9b470;
+        border: 0;
+        border-radius: 10px;
+      }
+      .card1:hover{
+        transform:scale(1.05) ;
+      }
+      .card3 {
+        flex: auto;
+        padding-top: 10px;
+        text-align: center;
+        width: 200px;
+        background-color: #d9b470;
+        border: 0;
+        border-radius: 10px;
+      }
+      .card3:hover{
+        transform:scale(1.05) ;
+      }
+      .card4 {
+        flex: auto;
+        padding-top: 10px;
+        text-align: center;
+        width: 200px;
+        background-color: #d9b470;
+        border: 0;
+        border-radius: 10px;
+      }
+      .card4:hover{
+        transform:scale(1.05) ;
+      }
+      .a34{
+        display: flex;
+        gap: 50px;
+      }
+      .a12{
+        display: flex;
+        gap: 50px;
+      }
+      .card2 {
+        flex: auto;
+        padding-top: 10px;
+        text-align: center;
+        width: 200px;
+        background-color: #d9b470;
+        border: 0;
+        border-radius: 10px;
+      }
+      .card2:hover{
+        transform:scale(1.05) ;
+      }
+      .card5 {
+        background-image: url("qww.png");
+        flex: auto;
+        padding-top: 10px;
+        text-align: center;
+        width: 400px;
+        height: 300px;
+        background-color: #d9b470;
+        border: 0;
+        border-radius: 10px;
+      }
+      .card5:hover{
+        transform:scale(1.05) ;
+      }
+        .card6 {
+        flex: auto;
+        padding-top: 10px;
+        text-align: center;
+        width: 400px;
+        height: 300px;
+        background-color: #d9b470;
+        border: 0;
+        border-radius: 10px;
+        background-image: url("sell.png");
+      }
+      .card6:hover{
+        transform:scale(1.05) ;
+      }
+      .a56{
+        display: grid;
+        gap: 20px;
+      }
+      @media (min-width: 900px) {
+  .block {
+    display: flex;
+  }
+}
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="Снимок_экрана_2024-12-23_225657-removebg-preview.png">
+      </div>
+      <a><h1>beautyisland</h1></a>
+      <div class="phone">
+        <a href="#">+375(29)292-92-92</a>
+      </div>
+    </header>
+    <header class="header2">
+      <div class="textcols">
+        <div class="textcols-item"><h2>Большой ассортимент</h2></div>
+        <div class="textcols-item"><h2>Выбор косметологов</h2></div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="cards">
+      <div class="a12">
+      <div class="card1">
+        <img class="shampoo" src="shampoo.jpg" />
+        <p>
+          <h2>Шампунь</h2>
+          Шампунь для 
+          <p>повреждённых волос</p>
+        </p>
+      </div>
+      <div class="card2">
+        <img src="skrab.jpg">
+        <h2>Скраб</h2>
+        Скраб для тела
+      </div>
+      </div>
+      <div class="a34">
+      <div class="card3">
+        <img src="krem.jpg">
+        <h2>Крем</h2>
+        Увлажняющий крем
+        <p>для рук</p>
+        
+      </div>
+      <div class="card4">
+        <img src="krem2.jpg">
+        <h2>Крем для тела</h2>
+        Питательный крем
+        <p>для тела</p>
+      </div>
+      </div>
+      
+    </div>
+    <div class="a56">
+      <div class="card5">
+      <img src="">
+      <h2></h2>
+    </div>
+    <div class="card6">
+      <img src="">
+    </div>
+      </div>
+    </main>
+    <div class="y">
+        <a>поиск</a>
+        <input type="text" placeholder="Поиск" class="search" />
+      </div>
+    <footer>Для заказа звоните по номеру указанному выше</footer>
+    <div class="footer2"><h1>Благодарим за то что вы выбрали нас!</h1></div>
+  </body>
+</html>
